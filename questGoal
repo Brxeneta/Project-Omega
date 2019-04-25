@@ -15,7 +15,7 @@ public class questGoal
         return (currentAmount >= requiredAmount);
     }
 
-    public void EnemyKilled()
+    public void EnemyKilled() 
     {
         if (goalType == GoalType.Kill)
         {
